@@ -173,12 +173,19 @@ body {
     gap: 16px;
 }
 
-.project-image img {
+/* Main project image (large one) */
+.project-image > img {
     width: 100%;
-    height: 100%;
+    height: auto;   /* let it size naturally so it doesn't get cut off */
     object-fit: cover;
     border-radius: 14px;
     border: 1px solid rgba(148,163,184,0.5);
+}
+
+/* Make the main image + gallery stack nicely */
+.project-image {
+    display: flex;
+    flex-direction: column;
 }
 
 .project-content h3 {
