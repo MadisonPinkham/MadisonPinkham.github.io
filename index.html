@@ -57,13 +57,17 @@
 
                 <!-- PROJECT 1: TEMPERATURE SENSOR -->
                 <article class="card project">
-                    <div class="project-image">
-                        <div class="image-gallery">
-                            <img src="temperature-sensor-1.png" alt="Additional sensor image 1">
-                            <img src="temperature-sensor-2.png" alt="Additional sensor image 2">
-                            <img src="temperature-sensor-3.png" alt="Additional sensor image 3">
-                        </div>   
+                <div class="project-image">
+                <!-- Main large image -->
+                    <img id="main-sensor-img" src="temperature-sensor-1.png" alt="Temperature Sensor Main">
+
+                <!-- Thumbnails -->
+                    <div class="image-gallery">
+                        <img src="temperature-sensor-1.png" alt="Main" onclick="swapSensorImage(this.src)">
+                        <img src="temperature-sensor-2.png" alt="Second" onclick="swapSensorImage(this.src)">
+                        <img src="temperature-sensor-3.png" alt="Third" onclick="swapSensorImage(this.src)">
                     </div>
+                </div>
                     <div class="project-content">
                         <h3>Temperature Sensor LCD System</h3>
                         <p class="project-tagline">
