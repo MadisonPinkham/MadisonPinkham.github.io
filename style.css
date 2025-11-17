@@ -239,3 +239,23 @@ contact a:hover {
         padding: 16px 14px 18px;
     }
 }
+/* Project Image Gallery */
+.image-gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: 90px;      /* adjust size here */
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(148,163,184,0.4);
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
