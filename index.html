@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Madison Pinkham – Project Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-overlay"></div>
+
+    <header class="top-nav">
+        <div class="logo">MP</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Madison <span>Pinkham</span></h1>
+                <p class="tagline">
+                    Computer Science student at UTD • Interested in AI, control systems, and operations.
+                </p>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/madisonpinkham362" target="_blank" class="btn primary">
+                        LinkedIn
+                    </a>
+                    <a href="#projects" class="btn ghost">
+                        View Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="card about">
+            <h2>About Me</h2>
+            <p>
+                I'm a Computer Science professional pursuing a Bachelor of Science at the 
+              University of Texas at Dallas, with an expected graduation in May 2026.
+            </p>
+            <p>
+                My core competencies include C++, control systems, electronic materials, and data-driven problem
+                solving. I love learning new tools quickly and collaborating with cross-functional teams.
+            </p>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <!-- PROJECT 1: TEMPERATURE SENSOR -->
+                <article class="card project">
+                    <div class="project-image">
+                        <img src="images/temperature-sensor.jpg" alt="Temperature sensor with LCD display">
+                    </div>
+                    <div class="project-content">
+                        <h3>Temperature Sensor LCD System</h3>
+                        <p class="project-tagline">
+                            Arduino-based system that reads body temperature and classifies it as cold, normal, or feverish.
+                        </p>
+                        <h4>Goal</h4>
+                        <p>
+                            Build a system that displays a person's temperature on an LCD and indicates if they are within
+                            a safe range, cold, or feverish.
+                        </p>
+
+                        <h4>Solution</h4>
+                        <ul>
+                            <li>Used an Arduino and breadboard to connect an LCD and an analog temperature sensor.</li>
+                            <li>Leveraged the built-in ADC to convert analog readings to digital values.</li>
+                            <li>Implemented logic to map temperature ranges to status labels on the display.</li>
+                        </ul>
+
+                        <h4>Results</h4>
+                        <p>
+                            Successfully created a compact prototype that provided real-time temperature feedback and status,
+                            demonstrating integration of hardware, firmware, and user-facing output.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- PROJECT 2: JAVA COVID RISK ASSESSMENT -->
+                <article class="card project">
+                    <div class="project-image">
+                        <img src="images/covid-risk.jpg" alt="Java COVID risk assessment program UI">
+                    </div>
+                    <div class="project-content">
+                        <h3>Java COVID Risk Assessment Tool</h3>
+                        <p class="project-tagline">
+                            Command-line Java tool that calculates patient COVID risk based on vital stats and conditions.
+                        </p>
+                        <h4>Goal</h4>
+                        <p>
+                            Help health practitioners determine risk level and recommended actions using a scored assessment.
+                        </p>
+
+                        <h4>Solution</h4>
+                        <ul>
+                            <li>Built the program in Java using NetBeans.</li>
+                            <li>Used <code>for</code> and <code>do-while</code> loops to accumulate risk scores from multiple factors.</li>
+                            <li>Implemented BMI and threshold logic for age, weight, height, and temperature to classify patients.</li>
+                        </ul>
+
+                        <h4>Results</h4>
+                        <p>
+                            Delivered a reusable tool that outputs a final risk score and labels (elderly, obese, feverish),
+                            making the evaluation process faster and more consistent.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- PROJECT 3: GE APPLIANCES -->
+                <article class="card project">
+                    <div class="project-image">
+                        <img src="images/ge-appliances.jpg" alt="GE appliances refrigeration line">
+                    </div>
+                    <div class="project-content">
+                        <h3>GE Appliances – Scrap Reduction Project</h3>
+                        <p class="project-tagline">
+                            Data-driven process improvement project to reduce side panel dents and cavity gaps in refrigerators.
+                        </p>
+                        <h4>Goal</h4>
+                        <p>
+                            Identify the root causes of recurring refrigeration unit damage and redesign the workflow to
+                            reduce scrap and rework on the post-foam case line.
+                        </p>
+
+                        <h4>Solution</h4>
+                        <ul>
+                            <li>Tracked damage locations and frequency in Excel to reveal patterns across the line.</li>
+                            <li>Optimized movement of front-line workers and coached the repair team on a new action plan.</li>
+                            <li>Added an additional foam pad checker to reduce missed units
