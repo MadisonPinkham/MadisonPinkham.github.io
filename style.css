@@ -176,8 +176,8 @@ body {
 /* Main project image (large one) */
 .project-image > img {
     width: 100%;
-    height: 260px;      /* uniform height for all main project images */
-    object-fit: cover;  /* perfect crop — no stretching */
+    height: auto;
+    object-fit: cover;
     border-radius: 14px;
     border: 1px solid rgba(148,163,184,0.5);
 }
