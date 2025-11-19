@@ -176,11 +176,12 @@ body {
 /* Main project image (large one) */
 .project-image > img {
     width: 100%;
-    height: auto;   /* let it size naturally so it doesn't get cut off */
-    object-fit: cover;
+    height: 260px;      /* uniform height for all main project images */
+    object-fit: cover;  /* perfect crop — no stretching */
     border-radius: 14px;
     border: 1px solid rgba(148,163,184,0.5);
 }
+
 
 /* Make the main image + gallery stack nicely */
 .project-image {
@@ -266,12 +267,5 @@ body {
 .image-gallery img:hover {
     transform: scale(1.05);
 }
-.covid-img {
-    height: 260px; 
-    object-fit: cover;
-}
-.project-image img[src*="ge-appliances"] {
-    height: 260px;
-    object-fit: cover;
-}
+
 
