@@ -256,7 +256,7 @@ body {
 }
 
 .image-gallery img {
-    width: 90px;      /* adjust size here */
+    width: 90px;     
     height: 90px;
     object-fit: cover;
     border-radius: 10px;
@@ -268,7 +268,5 @@ body {
 .image-gallery img:hover {
     transform: scale(1.05);
 }
-
-/* Force Projects 2 & 3 images to crop nicely */
 
 
