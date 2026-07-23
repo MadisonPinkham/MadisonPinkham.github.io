@@ -93,32 +93,42 @@
                     </div>
                 </article>
 
-                <!-- PROJECT 2: JAVA COVID RISK ASSESSMENT -->
+                <!-- PROJECT 2: FINANCIAL TRACKING APP -->
                 <article class="card project">
-                    <div class="project-image">
-                        <img class="covid-img" src="covid-risk.png" alt="Java COVID risk assessment program UI">
+                <div class="project-image">
+                <!-- Main large image -->
+                    <img id="main-app-img" src="spending_tracker.png" alt="Spend Sense Main">
+                <!-- Thumbnails -->
+                    <div class="image-gallery">
+                        <img src="spending_tracker.png" alt="Main" onclick="swapAppImage(this.src)">
+                        <img src="savings_tracker.png" alt="Second" onclick="swapAppImage(this.src)">
+                        <img src="learn.png" alt="Third" onclick="swapAppImage(this.src)">
                     </div>
+                </div>
                     <div class="project-content">
-                        <h3>Java COVID Risk Assessment Tool</h3>
+                        <h3>Spend Sense - Financial Management IOS App</h3>
                         <p class="project-tagline">
-                            Command-line Java tool that calculates patient COVID risk based on vital stats and conditions.
+                            IOS financial management application that helps users track spending, analyze financial habits, 
+                            simulate savings growth, and improve financial literacy through personalized insights.                        
                         </p>
                         <h4>Goal</h4>
                         <p>
-                            Help health practitioners determine risk level and recommended actions using a scored assessment.
+                            Create an intuitive financial companion that helps students and young professionals understand 
+                            their spending patterns, build better saving habits, and make informed decisions about their future finances.                        
                         </p>
-
                         <h4>Solution</h4>
                         <ul>
-                            <li>Built the program in Java using NetBeans.</li>
-                            <li>Used <code>recursive binary search functions</code> to accumulate risk scores from multiple factors.</li>
-                            <li>Implemented BMI and threshold logic for age, weight, height, and temperature to classify patients.</li>
+                            <li>Developed a native iOS application using SwiftUI and XCode with an interactive, user-focused interface.</li>
+                            <li>Implemented a spending tracker to categorize purchases, visualize monthly spending trends, and identify unnecessary expenses.</li>
+                            <li>Created a savings simulator allowing users to create portfolios, set monthly contributions, and estimate future growth based on projected returns.</li>
+                            <li>Designed financial insight features including debt-to-income ratio analysis and personalized spending/savings recommendations.</li>
+                            <li>Integrated financial education tools to help users improve budgeting, investing, and money management knowledge.</li>
                         </ul>
-
                         <h4>Results</h4>
                         <p>
-                            Delivered a reusable tool that outputs a final risk score and labels (elderly, obese, feverish),
-                            making the evaluation process faster and more consistent.
+                            Delivered a fully functional financial management application that combines expense tracking, 
+                            savings forecasting, investment planning, and financial education into a single mobile experience.
+                            The app empowers users to better understand their finances and develop long-term financial habits.
                         </p>
                     </div>
                 </article>
